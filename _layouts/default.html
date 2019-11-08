@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  {%- include head.html -%}
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      {% if page.sidebarfile %}
+      <section class="sidebar">
+          {% include {{ page.sidebarfile }} %}
+      </section>
+      <article class="main has-sidebar">
+        {{ content }}
+      </article>
+      {% else %}
+      <article class="main">
+        {{ content }}
+      </article>
+      {% endif %}
+    </main>
+
+    {%- include footer.html -%}
+    {%- include script.html -%}
+
+  </body>
+</html>
