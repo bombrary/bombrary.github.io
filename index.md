@@ -9,9 +9,9 @@ title: Top Page
 
 ## Links
 
-- [作品置き場（可視化関連）](https://bombrary.github.io/vizworks)
+- [Vizworks](https://bombrary.github.io/vizworks)：D3.jsを使った可視化の作品集。
 - [Chanomic Blog](https://bombrary.github.io/blog)：ブログ。
-- [Chanomic Sketch](https://bombrary.github.io/sketch)：Creative Coding関連の作品集
+- [Chanomic Sketch](https://bombrary.github.io/sketch)：Creative Coding関連の作品集。
 
 ## Works （GitHub Pagesで公開しているもの）
 
